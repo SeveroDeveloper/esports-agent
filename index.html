@@ -23,6 +23,21 @@
       <div>
         <h2>Goal Assistant</h2>
         <p>Ask about strategies, builds and tips for your games!</p>
+
+        <form>
+          <input type="password" placeholder="Enter the Gemini API KEY" required>
+          <select>
+            <option value="">Select a game</option>
+            <option value="valorant">Valorant</option>
+            <option value="lol">League of Legends</option>
+            <option value="csgo">CS:GO</option>
+          </select>
+          <input type="text" placeholder="Enter your question here..." required>
+          <button>Ask</button>
+        </form>
+        <div id="ai-response">
+          <div class="response-content"></div>
+        </div>
       </div>
     </section>
   </main>
