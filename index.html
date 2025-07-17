@@ -28,20 +28,21 @@
           <input type="password" placeholder="Enter the Gemini API KEY" id="api-key-input" required>
           <select id="game-select">
             <option value="">Select a game</option>
-            <option value="valorant">Valorant</option>
+            <option value="pubg">Playerunknown's Battlegrounds (PUBG)</option>
             <option value="lol">League of Legends</option>
             <option value="csgo">CS:GO</option>
           </select>
           <input type="text" placeholder="Enter your question here..." id="question-input" required>
           <button id="ask-button">Ask</button>
         </form>
-        <div id="ai-response">
+        <div id="ai-response" class="hidden">
           <div class="response-content"></div>
         </div>
       </div>
     </section>
   </main>
 
+  <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
   <script src="./script.js"></script>
 </body>
 </html>
