@@ -31,7 +31,7 @@ A web application that uses the Gemini API (Google's AI) to answer questions abo
 
 ## 🚀 How to Run
 
-You can use the application through this [public link]().
+You can use the application through this [public link](https://severodeveloper.github.io/esports-agent).
 > Tip: Check the [Google documentation](https://ai.google.dev/gemini-api/docs/api-key) to learn how to create an API Key for Gemini (it's free!)
 
 To run locally, simply clone or download the project and open the `index.html` file in your browser.
